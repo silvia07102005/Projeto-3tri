@@ -3,28 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Sociais</title>
+    <meta name="description" content="Site sobre Alanzoka, o streamer de jogos mais famoso do Brasil.">
+    <title>Alanzoka - O Maior Streamer do Brasil</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
 </head>
 <body>
+
     <header>
-        <h1>Relatório das redes sociais</h1>
-        <nav>
-            <a href="index.html">Mundo</a>
-            <a href="#">Minha escola</a>
-        </nav>
+        <div class="container">
+            <h1>Alanzoka</h1>
+            <nav>
+                <ul>
+                    <li><a href="#biografia">Biografia</a></li>
+                    <li><a href="#redes-sociais">Redes Sociais</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main class="graficos-section">
-        <section id="graficos-container" class="graficos-container">
-            <!-- crie os gráficos/texto aqui -->
-        </section>
-    </main>
+
+    <section id="biografia" class="section">
+        <div class="container">
+            <h2>Biografia</h2>
+            <p>Alanzoka é um dos maiores streamers do Brasil, conhecido principalmente por suas transmissões de jogos de ação e aventura. Com seu estilo descontraído e carisma, ele conquistou uma enorme base de fãs no Brasil e no mundo. Iniciou sua carreira como criador de conteúdo em plataformas como o YouTube, mas foi no Twitch que alcançou maior notoriedade.</p>
+        </div>
+    </section>
+
+    <section id="redes-sociais" class="section">
+        <div class="container">
+            <h2>Redes Sociais</h2>
+            <p>Fique por dentro das últimas novidades e transmissões ao vivo do Alanzoka nas suas redes sociais:</p>
+            <ul>
+                <li><a href="https://www.twitch.tv/alanzoka" target="_blank">Twitch</a></li>
+                <li><a href="https://www.youtube.com/c/Alanzoka" target="_blank">YouTube</a></li>
+                <li><a href="https://www.twitter.com/alanzoka" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/alanzoka" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="videos" class="section">
+        <div class="container">
+            <h2>Vídeos Recentes</h2>
+            <p>Assista a alguns dos vídeos mais recentes do Alanzoka:</p>
+            <div id="video-gallery">
+                <!-- Vídeos do YouTube embedados -->
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/2NxRlLwP6yA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/ZH6Vx2edTXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>Desenvolvido por Gui Lima</p>
+        <div class="container">
+            <p>&copy; 2024 Alanzoka Fans. Todos os direitos reservados.</p>
+        </div>
     </footer>
-    <script type="module" src="graficos/common.js"></script>
-    <script type="module" src="graficos/informacoesGlobais.js"></script>
-    <script type="module" src="graficos/quantidadeUsuarios.js"></script>
+
+    <script src="script.js"></script>
 </body>
+</html>
+
 </html>
